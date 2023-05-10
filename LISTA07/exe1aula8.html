@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando CSS</title>
+    <style>
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 90%;
+            color: blue;
+            text-decoration: underline;
+            border-color: black;
+            border-width: 3px;
+            border-style: double;
+            background-color: yellow;
+        }
+        .fitalica {
+            font-style: italic;
+        }
+        .ftam1 {
+            font-size: 140%;
+            color: green;
+        }
+        .ftam2 {
+            font-size: 170%;
+            font-style: italic;
+            color: navy;
+        }
+        .fitpolmpVermelho {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: red;
+        }
+        a:link {
+            color: blue;
+        }
+        a:hover {
+            font-style: italic;
+            color: navy;
+        }
+        a:visited {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>SPAN</h1>
+    <ul>
+        <li><span class="fitalica">Usando a TAG SPAN</span> Então, <span class="ftam1">podemos manipular trechos usando SPAN</span></li>
+        <li><span class="fitpolmpVermelho">Criamos uma classe vermelho</span>
+        <span class="ftam2"> e estamos em qualquer lugar do HTML</span></li>
+    </ul>
+    <br>
+    <span>
+        <a href="exe2aula8.html">Exercicio 02</a>
+    </span>
+</body>
+</html>
