@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <link rel="shortcut icon" href="src/carro.png" type="image/x-icon">
+  <title>Loja de Carros</title>
+  <style>
+    /* Reset de estilos básicos */
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    /* Estilos gerais */
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f1f1f1;
+    }
+
+    h1, h2, h3 {
+    margin-bottom: 10px;
+    }
+
+    section {
+    padding: 40px;
+    }
+
+    .carro {
+    margin-bottom: 30px;
+    }
+
+    form label, form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    }
+
+    form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    }
+
+    footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    }
+    .navbar {
+        padding: 30px;
+    }
+    .details {
+        font-weight: bolder;
+        color: darkred;
+    }
+    .icone {
+        padding-right: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-danger">
+        <div class="container-fluid">
+            <img class="icone" src="src/carro (1).png" width="50px" alt="">
+            <a class="navbar-brand" href="#">
+                <h1>Loja de Carros</h1>
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+  </header>
+
+  <section id="home container-fluid align-items-center">
+    <h2 class="text-center">Bem-vindo à nossa loja de carros</h2>
+    <p class="text-center">Encontre o carro dos seus sonhos aqui!</p>
+  </section>
+
+  <section id="carros container-fluid text-center align-items-center">
+    <h2 class="text-center fw-bold">Nossos Carros</h2>
+    <div class="carro align-items-center text-center">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202305/20230513/bmw-320i-2.0-16v-turbo-flex-m-sport-automatico-wmimagem08152110825.jpg?s=fill&w=552&h=414&q=60" class="img-thumbnail" alt="...">              
+                </div>
+              <div class="carousel-item">
+                <img src="https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202305/20230513/bmw-320i-2.0-16v-turbo-flex-m-sport-automatico-wmimagem08152240820.jpg?s=fill&w=552&h=414&q=60" class="img-thumbnail" alt="...">               </div>
+              <div class="carousel-item">
+                <img src="https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202305/20230513/bmw-320i-2.0-16v-turbo-flex-m-sport-automatico-wmimagem08152182714.jpg?s=fill&w=552&h=414&q=60" class="img-thumbnail" alt="...">               </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <h3 style="padding-top: 20px;">BMW <span class="details">320i</span> </h3>
+        <p>2.0 16V TURBO FLEX M SPORT AUTOMÁTICO</p>
+    </div>
+    <br>
+    <br>
+    <div class="carro align-items-center text-center">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202304/20230414/audi-a5-2.0-tfsi-gasolina-sportback-performance-black-s-tronic-wmimagem15513682818.jpg?s=fill&w=552&h=414&q=60" class="img-thumbnail" alt="...">              
+                </div>
+              <div class="carousel-item">
+                <img src="https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202304/20230414/audi-a5-2.0-tfsi-gasolina-sportback-performance-black-s-tronic-wmimagem15513723631.jpg?s=fill&w=552&h=414&q=60" class="img-thumbnail" alt="...">               </div>
+              <div class="carousel-item">
+                <img src="https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202304/20230414/audi-a5-2.0-tfsi-gasolina-sportback-performance-black-s-tronic-wmimagem15513757238.jpg?s=fill&w=552&h=414&q=60" class="img-thumbnail" alt="...">               </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <h3 style="padding-top: 20px;">AUDI <span class="details">A5</span> </h3>
+        <p>2.0 TFSI GASOLINA SPORTBACK PERFORMANCE BLACK S TRONIC</p>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Entre em contato conosco para mais informações.</p>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Digite sua mensagem</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Loja de Carros. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
