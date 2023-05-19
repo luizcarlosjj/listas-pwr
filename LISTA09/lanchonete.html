@@ -55,6 +55,12 @@
             background-color: #8F4517;
             padding: 30px;
         }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
     </style>
 </head>
 <body>
@@ -71,21 +77,10 @@
                       <a class="nav-link link-font" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link link-font" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle link-font"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Índice
-                      </a>
-                      <ul class="dropdown-menu link-font">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
+                      <a class="nav-link link-font" href="#menu">Menu</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link link-font" href="#">Contatos</a>
+                      <a class="nav-link link-font" href="#contato">Contatos</a>
                     </li>
                   </ul>
             </div>
@@ -124,12 +119,13 @@
                 </button>
               </div>
               <div class="container-fluid text-center w-75">
-                <p style="padding-top: 50px; color: #fff;">Seja você um fã de hambúrgueres com um toque picante, frango grelhado suculento ou deliciosas opções vegetarianas, nossa diversificada seleção de pratos irá satisfazer todos os paladares. Acompanhe suas refeições com nossas batatas crocantes e molhos exclusivos, que foram cuidadosamente desenvolvidos para complementar cada mordida.</p>
+                <p style="padding-top: 50px; color: #fff; font-size: 1rem;">Seja você um fã de hambúrgueres com um toque picante, frango grelhado suculento ou deliciosas opções vegetarianas, nossa diversificada seleção de pratos irá satisfazer todos os paladares. Acompanhe suas refeições com nossas batatas crocantes e molhos exclusivos, que foram cuidadosamente desenvolvidos para complementar cada mordida.</p>
             </div>
         </section>
         
         <div id="fotos" class="container-fluid text-center">
             <img src="https://www.pirineuspizzaria.com.br/wp-content/uploads/2017/08/h4-1.jpg" class="img-fluid image-lanche" alt="...">
+            <hr>
             <img src="https://www.pirineuspizzaria.com.br/wp-content/uploads/2017/08/h3.jpg" class="img-fluid" alt="...">
         </div>
 
@@ -137,13 +133,13 @@
             <div class="container text-center">
                 <div class="row">
                   <div class="col">
-                    <h1 style="padding-top: 50px; color: #fff; text-decoration: underline;">Nossa Rede!</h1>
-                    <p style="padding-top: 20px; color: #fff;">
+                    <h1 style="padding-top: 50px; color: #fff; text-decoration: underline; font-size: 1.7rem;">Nossa Rede!</h1>
+                    <p style="padding-top: 20px; color: #fff; font-size: 1rem;">
                         Em cada uma de nossas lanchonetes, você encontrará uma explosão de temperos e aromas que transportarão seus sentidos para uma viagem única. Nossos pratos são cuidadosamente preparados com os melhores ingredientes, combinando o calor do piri-piri com sabores tradicionais e contemporâneos.
                     </p>
                   </div>
                   <div class="col">
-                    <h1 style="padding-top: 50px; color: #fff; text-decoration: underline;">Entre Em contato</h1>
+                    <h1 id="contato" style="padding-top: 50px; color: #fff; text-decoration: underline; font-size: 1.7rem;">Entre Em contato</h1>
                     <br>
                     <a href="" target="_blank">
                         <button type="button" class="btn btn-success">Whatsapp <img src="src/whatsapp.png" width="20px" alt=""></button>
@@ -160,31 +156,33 @@
             <div class="container text-center">
                 <div class="row">
                   <div class="col">
-                    <h1 style="padding-top: 50px;">Informações</h1>
-                    <p style="padding-top: 20px;">
+                    <h1 style="padding-top: 50px; font-size: 1.7rem;">Informações</h1>
+                    <p style="padding-top: 20px; font-size: 1rem;">
                         Estamos preparados para atendê-lo com qualidade e agilidade no conforto de sua casa. Acesse nosso cardápio e entre em contato conosco pelos telefones (62) 3932-0255 ou (62) 3087-6939.
                     </p>
                   </div>
                   <div class="col">
-                    <h1 style="padding-top: 50px;">Funcionamento</h1>
-                    <p style="padding-top: 20px;">
+                    <h1 style="padding-top: 50px; font-size: 1.7rem;">Funcionamento</h1>
+                    <p style="padding-top: 20px; font-size: 1rem;">
                         <i class="fa-sharp fa-regular fa-clock"></i>Terça a domingo das 18:30 as 23:30hs.
                     </p>
                   </div>
                   <div class="col">
-                    <h1 style="padding-top: 50px;">Localização</h1>
-                    <p style="padding-top: 20px;">
+                    <h1 style="padding-top: 50px; font-size: 1.7rem;">Localização</h1>
+                    <p style="padding-top: 20px; font-size: 1rem;">
                         Av. H, Qd. C12, Lt. 09, Jardim Goiás, Goiânia – GO
                     </p>
                     <br>
-                    <p>
-                        <i class="fa-solid fa-envelope"></i> <a style="text-decoration: none; color: #212121;" href="mailto:pririlanchonetes@gmail.com">pririlanchonetes@gmail.com</a>
+                    <p style="font-size: 1rem;">
+                        <i class="fa-solid fa-envelope"></i> <a style="text-decoration: underline; color: #212121;" href="mailto:pririlanchonetes@gmail.com">pririlanchonetes@gmail.com</a>
                     </p>
                   </div>
                 </div>
               </div>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+      <p style="font-size: 1rem;">&copy; 2023 Piri Lanchonetes. Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
