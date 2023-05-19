@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja de Produtos de Saúde</title>
+  <!-- CSS do Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  </head>
+</head>
+<body>
+  <!-- Barra de navegação -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Loja de Produtos de Saúde</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Cabeçalho -->
+  <header class="bg-danger text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Loja de Produtos de Saúde</h1>
+      <p class="lead">Encontre produtos para cuidar da sua saúde</p>
+    </div>
+  </header>
+
+  <!-- Produtos -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Nossos Produtos</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://www.drogaraia.com.br/_next/image?url=https%3A%2F%2Fimg.drogaraia.com.br%2Fcatalog%2Fproduct%2Fd%2Fi%2Fdipirona-monoidratada-500mg-ml-neo-qu_mica-gotas-com-10ml_01.jpg&w=256&q=75" class="card-img-top" alt="Produto 1">
+            <div class="card-body">
+              <h5 class="card-title">DIPIRONA MONOIDRATADA 500MG/ML </h5>
+              <p class="card-text">SOLUÇÃO GOTAS 10ML NEO QUÍMICA GENÉRICO</p>
+              <a href="#" class="btn btn-danger">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://www.drogaraia.com.br/_next/image?url=https%3A%2F%2Fimg.drogaraia.com.br%2Fcatalog%2Fproduct%2Fplaceholder%2Fstores%2F2%2Fraia_tarja_vermelha_amarela.jpg&w=256&q=75" class="card-img-top" alt="Produto 2">
+            <div class="card-body">
+              <h5 class="card-title">MALEATO DE ENALAPRIL 10MG 30</h5>
+              <p class="card-text">COMPRIMIDOS NEO QUÍMICA GENÉRICO</p>
+              <a href="#" class="btn btn-danger">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://www.drogaraia.com.br/_next/image?url=https%3A%2F%2Fimg.drogaraia.com.br%2Fcatalog%2Fproduct%2F7%2F8%2F7896015560300_1_1.jpg&w=256&q=75" class="card-img-top" alt="Produto 3">
+            <div class="card-body">
+            <h5 class="card-title">SAL DE FRUTA ENO TRADICIONAL 100G</h5>
+            <p class="card-text">Sal de Fruta Eno é indicado para alívio de azia, má digestão e outros transtornos estomacais, tais como excesso de acidez do estômago e indigestão ácida.</p>
+            <a href="#" class="btn btn-danger">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Sobre -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Sobre Nós</h2>
+      <p class="text-center">Somos uma loja especializada em oferecer produtos de saúde de alta qualidade, atendendo às necessidades de cuidados pessoais e bem-estar. Nossa missão é fornecer produtos confiáveis e eficazes que contribuam para a sua saúde e qualidade de vida. Contamos com uma seleção cuidadosamente escolhida, abrangendo desde suplementos alimentares até equipamentos de fitness. Nossa equipe está sempre disponível para oferecer orientações e esclarecer suas dúvidas. Visite nossa loja ou entre em contato conosco para obter mais informações.</p>
+    </div>
+  </section>
+  <!-- Contato -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Entre em Contato</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="name" placeholder="Digite seu nome">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Mensagem</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Digite sua mensagem"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2023 Loja de Produtos de Saúde. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+  <!-- JavaScript do Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
